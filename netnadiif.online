@@ -1,0 +1,20 @@
+$TTL 300
+$ORIGIN netnadiif.online.
+
+@       IN      SOA     ns1.netnadiif.online.     info.netnadiif.online. (
+
+	20240208; 	serial
+	4H; 		refresh (4400)
+	1H; 		retry (3600)
+	1W; 		expire (604800)
+	1H; 		minimum (3600)
+)
+
+
+; MAGAC SERVER
+@       IN      NS      ns1.netnadiif.online.
+ns1     IN      A       10.0.0.210
+
+
+; WEB SERVER
+www.netnadiif.online.	IN	A	10.0.0.215

@@ -1,0 +1,17 @@
+$TTL 300
+$ORIGIN 0.0.10.in-addr.arpa.
+@	IN	SOA	ns1.netnadiif.online.	info.netnadiif.online. (
+
+        20240207; serial
+        4H; refresh (14400)
+        1H; retry (3600)
+        1W; expire (604800)
+        1H; minimum (3600)
+)
+
+; MAGAC SERVER
+@	IN	NS	ns1.netnadiif.online.
+210	IN	PTR	ns1.netnadiif.online.
+
+; WEB SERVERS
+215	IN	PTR	www.netdadiif.online.
