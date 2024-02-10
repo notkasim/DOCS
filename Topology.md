@@ -26,7 +26,7 @@ graph LR;
     tele2_net[/192.168.1.0/24\]
 
     Fiber-->core;
-    core-->core_net;
+    core_net-->core;
     core-->core_link;
     core_link-->tele2_link;
     tele2_link-->tele2;
