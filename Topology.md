@@ -18,7 +18,7 @@ graph RL;
 
 ```mermaid
 graph LR;
-    id3[(Core_R)]
+    core[(Core_R)]
     id4[(Tele_R)]
     Fiber-->id3;
     id3-->Gw:10.0.0.1-->10.0.0.210
