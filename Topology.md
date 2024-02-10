@@ -3,10 +3,9 @@
 
 ```mermaid
 graph LR;
+    id1[Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network]
     Fiber-->R1;
     R1-->R2;
-id1[Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network]
-
     R1-->10.0.0.210/32;
     R2-->192.168.1.10/32;
 ```
