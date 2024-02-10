@@ -21,4 +21,5 @@ graph RL;
     R1-->10.0.0.210/32;
     R1-->Fiber;
     Fiber-->Junet_Gw;
+    id2([Internet])
 ```
