@@ -11,11 +11,11 @@ graph LR;
 
 ```mermaid
 Flowchart LR;
-    Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network
+    id1[Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network
     ICMP traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network
     HTTPS traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 netwrok
     SSH traffic from the 192.168.0.0/24 network can reach the 10.0.0.0/24 network
-    ICMP
+    ICMP]
 ```
 
 
