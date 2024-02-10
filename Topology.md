@@ -8,11 +8,12 @@ graph LR;
     R1-->10.0.0.210/32;
     R2-->192.168.1.10/32;
 ```
+---
+title: Node with text
+---
+flowchart LR
+    id1[This is the text in the box]
 
-```mermaid
-Flowchart LR;
-    id1[Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network}
-```
 
 
 
@@ -21,4 +22,8 @@ Flowchart LR;
     HTTPS traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 netwrok
     SSH traffic from the 192.168.0.0/24 network can reach the 10.0.0.0/24 network
     ICMP
+    mermaid
+Flowchart LR;
+    Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network
+
 ```
