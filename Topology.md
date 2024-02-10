@@ -8,11 +8,11 @@ graph LR;
     R1-->10.0.0.210/32;
     R2-->192.168.1.10/32;
 ```
----
-title: Node with text
----
-flowchart LR
+
+```mermaid
+flowchart LR;
     id1[This is the text in the box]
+```
 
 
 
