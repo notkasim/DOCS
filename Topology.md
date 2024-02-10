@@ -22,4 +22,5 @@ graph RL;
     R1-->Fiber;
     Fiber-->Junet_Gw;
     id2([Internet])
+    Junet_Gw-->id2
 ```
