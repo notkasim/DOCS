@@ -25,10 +25,9 @@ graph LR;
     core_net[\10.0.0.0/24/]
     tele2_net[/192.168.1.0/24\]
 
-    
+    core-->10.0.0.0/24
     Fiber-->core
     core-->core_link
-    core-->10.0.0.0/24
     core_link-->tele2_link
     tele2_link-->tele2
     tele2-->tele2_net-->192.168.1.10
