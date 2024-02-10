@@ -1,6 +1,6 @@
 ```mermaid
 graph RL;
-    core[(Core_R)]
+    core[(Core)]
     Fiber-->core;
     core_link{{10.0.0.242}}
     core-->core_link
