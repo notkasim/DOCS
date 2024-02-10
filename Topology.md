@@ -21,14 +21,17 @@ graph LR;
     tele2[(Tele_R)]
     core_link{{10.0.0}}
     tele_link{{10.0.0.243}}
-    core_gw(\10.0.0.1/)
+    core_gw[\10.0.0.1/]
+    tele_gw[/192.168.1.1\]
 
     
     Fiber-->core
-    core-->core_gw-->10.0.0.210
     core-->core_link
     core_link-->tele_link
     tele_link-->tele2
+
+    core-->core_gw-->10.0.0.210
+    tele2-->tele2_link-->192.168.1.10
 
 
 
