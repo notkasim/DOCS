@@ -32,4 +32,4 @@ flowchart LR
     Line 2
     Line 3`"]
     markdown --> newLines
-```mermaid
+```
