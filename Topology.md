@@ -20,6 +20,7 @@ graph RL;
 ```mermaid
 graph LR;
     id3[(R1)]
+    id3-->Gw:10.0.01
     Fiber-->id3;
     id3-->Tele2_Gw
     id3-->10.0.0.210/32
