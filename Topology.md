@@ -19,11 +19,13 @@ graph RL;
 
 ```mermaid
 graph LR;
-    id3[(R1)]
-    id3-->Gw:10.0.01
-    Fiber-->id3;
-    id3-->Tele2_Gw
+    id3[(Core_R)]
+    id3-->Gw:10.0.0.1
     id3-->10.0.0.210/32
-    Tele2_Gw-->192.168.1.10/32
+    Fiber-->id3;
+    id4[(Tele2_R)]
+    id3-->id4
+    id4-->Gw:192.168.1.0-->192.168.1.10
+    id4-->10.0.0.243-->id3
 ```
 
