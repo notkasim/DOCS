@@ -17,7 +17,7 @@ graph RL;
 
 
 ```mermaid
-graph LR;
+graph RL;
     core[(Core_R)]
     tele2[(Tele_R)]
     core_link{{10.0.0.242}}
@@ -26,7 +26,7 @@ graph LR;
     tele2_net[/192.168.1.0/24\]
 
     Fiber-->core;
-    core_net-->core;
+    core-->core_net;
     core-->core_link;
     core_link-->tele2_link;
     tele2_link-->tele2;
