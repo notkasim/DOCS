@@ -25,11 +25,12 @@ graph LR;
 
     
     Fiber-->core
+    core-->core_gw-->10.0.0.210
     core-->core_link
     core_link-->tele_link
     tele_link-->tele2
 
-    core-->core_gw-->10.0.0.210
+
 
 
 
