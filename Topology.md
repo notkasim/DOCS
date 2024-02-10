@@ -8,8 +8,8 @@ graph RL;
     192.168.1.10/32-->Tele2_Gw;
     id1[(R1)]
     Tele2_Gw-->id1;
-    R1-->10.0.0.210/32;
-    R1-->Fiber;
+    id1-->10.0.0.210/32;
+    id1-->Fiber;
     Fiber-->Junet_Gw;
     id2[(Internet)]
     Junet_Gw-->id2
