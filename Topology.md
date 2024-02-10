@@ -16,10 +16,13 @@ graph RL;
 ```
 
 
+```Ubuntu server 10.0.0.210 can not ping 10.0.0.243, link net you Tele2 Router```
+
+
 ```mermaid
 graph LR;
     core[(CoreRouter)]
-    tele2[(TeleRouter)]
+    tele2[(Tele2Router)]
     core_link{{10.0.0.242}}
     tele2_link{{10.0.0.243}}
     core_net[\10.0.0.0/24/]
