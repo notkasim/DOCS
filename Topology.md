@@ -20,4 +20,5 @@ graph RL;
     Tele2_Gw-->R1;
     R1-->10.0.0.210/32;
     R1-->Fiber;
+    Fiber-->Junet_Gw;
 ```
