@@ -11,7 +11,7 @@ graph LR;
 
 ```mermaid
 flowchart LR;
-    id1[This is the text in the box]
+    id1[Traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network]
 ```
 
 
