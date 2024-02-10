@@ -27,8 +27,8 @@ graph LR;
 ```mermaid
 flowchart LR;
     markdown[This is Markdown]
-    newLines["`Line1
+    newLines[`Line1
     Line 2
-    Line 3`"]
+    Line 3`]
     markdown --> newLines
 ```
