@@ -28,6 +28,7 @@ graph LR;
     
     Fiber-->core
     core-->core_link
+    core-->10.0.0.0/24
     core_link-->tele2_link
     tele2_link-->tele2
     tele2-->tele2_net-->192.168.1.10
