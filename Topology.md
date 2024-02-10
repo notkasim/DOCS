@@ -27,7 +27,6 @@ graph LR;
 
     
     Fiber-->core
-    core-->core_net
     core-->core_link
     core_link-->tele2_link
     tele2_link-->tele2
