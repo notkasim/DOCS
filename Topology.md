@@ -19,7 +19,7 @@ graph RL;
 graph LR;
     core[(Core_R)]
     tele2[(Tele_R)]
-    core_link{{10.0.0}}
+    core_link{{10.0.0.200}}
     tele_link{{10.0.0.243}}
     core_gw[\10.0.0.1/]
     tele_gw[/192.168.1.1\]
