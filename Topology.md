@@ -17,7 +17,7 @@ graph RL;
 
 
 ```mermaid
-graph RL;
+graph LR;
     core[(CoreRouter)]
     tele2[(TeleRouter)]
     core_link{{10.0.0.242}}
