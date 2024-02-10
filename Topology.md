@@ -25,8 +25,7 @@ graph LR;
 
 
 ```mermaid
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
-flowchart LR
+flowchart LR;
     markdown["`This **is** _Markdown_`"]
     newLines["`Line1
     Line 2
