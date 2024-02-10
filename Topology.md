@@ -15,6 +15,6 @@ flowchart LR;
 ```
 
 ```mermaid
-flowchart LR;
+graph LR;
     x-->y;
 ```
