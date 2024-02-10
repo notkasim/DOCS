@@ -7,6 +7,9 @@ graph LR;
     R1-->R2;
     R1-->10.0.0.210/32;
     R2-->192.168.1.10/32;
-                        id1[ICMP, SSH and HTTPS traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network]
 
+
+```mermaid¨
+Comment LR;
+    id1[ICMP, SSH and HTTPS traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network]
 ```
