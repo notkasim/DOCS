@@ -20,9 +20,9 @@ graph RL;
 graph LR;
     core[(Core_R)]
     id4[(Tele_R)]
-    Fiber-->id3;
-    id3-->Gw:10.0.0.1-->10.0.0.210
-    id3-->10.0.0.243-->id4
+    Fiber-->core;
+    core-->Gw:10.0.0.1-->10.0.0.210
+    core-->10.0.0.243-->id4
     id4-->Gw:192.168.1.0-->192.168.1.10
 ```
 
