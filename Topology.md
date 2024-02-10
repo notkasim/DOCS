@@ -30,7 +30,7 @@ graph LR;
     core-->core_link
     core_link-->tele2_link
     tele2_link-->tele2
-    tele2-->tele2_gw
+    tele2-->tele2_gw--192.168.1.10
 
 
 
