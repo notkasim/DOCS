@@ -15,14 +15,18 @@ graph RL;
     Junet_Gw-->id2
 ```
 
-
 ```mermaid
 graph LR;
     core[(Core_R)]
     tele2[(Tele_R)]
-    Fiber-->core;
-    core-->Gw:10.0.0.1-->10.0.0.210
-    core-->10.0.0.243-->tele2
-    tele2-->Gw:192.168.1.0-->192.168.1.10
+    core_link{{10.0.0}}
+    tele_link{{10.0.0.243}}
+    
+    Fiber-->core
+    core-->core_link
+    core_link-->tele_link
+    tele_link-->tele2
+
+
 ```
 

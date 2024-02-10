@@ -26,3 +26,16 @@ graph LR;
     Tele2_Gw-->192.168.1.10/32;
 ```
 
+```mermaid
+graph LR;
+    core[(Core_R)]
+    tele2[(Tele_R)]
+    gw_core([10.0.0.1])
+    gw_tele2([192.168.1.1])
+    ubuntu([10.0.0.210])
+    link([10.0.0.243])
+    Fiber-->core;
+    core-->gw_core-->ubuntu
+    core-->link--tele2
+    tele2-->Gw:192.168.1.0-->192.168.1.10
+```
