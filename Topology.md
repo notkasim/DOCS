@@ -16,8 +16,8 @@ flowchart LR;
 
 ```mermaid
 graph RL;
-    Fiber-->R1;
-    R1-->Tele2_Gw;
+    192.168.1.10/32-->Tele_Gw;
+    Tele2_G2-->R1;
     R1-->10.0.0.210/32;
-    Tele2_Gw-->192.168.1.10/32;
+    R1-->Fiber;
 ```
