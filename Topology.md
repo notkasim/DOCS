@@ -10,7 +10,7 @@ graph LR;
 ```
 
 ```mermaid
-Comment LR;
+flowchart LR;
     id1[ICMP, SSH and HTTPS traffic from the 192.168.1.0/24 network can reach the 10.0.0.0/24 network]
 ```
 
