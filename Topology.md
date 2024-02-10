@@ -6,7 +6,8 @@
 ```mermaid
 graph RL;
     192.168.1.10/32-->Tele2_Gw;
-    Tele2_Gw-->R1;
+    id1[(R1)]
+    Tele2_Gw-->id1;
     R1-->10.0.0.210/32;
     R1-->Fiber;
     Fiber-->Junet_Gw;
