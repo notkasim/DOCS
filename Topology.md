@@ -18,8 +18,8 @@ graph RL;
 
 ```mermaid
 graph RL;
-    core[(Core_R)]
-    tele2[(Tele_R)]
+    core[(CoreRouter)]
+    tele2[(TeleRouter)]
     core_link{{10.0.0.242}}
     tele2_link{{10.0.0.243}}
     tele2_net[/192.168.1.0/24\]
