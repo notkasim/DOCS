@@ -22,10 +22,11 @@ graph LR;
     tele2[(TeleRouter)]
     core_link{{10.0.0.242}}
     tele2_link{{10.0.0.243}}
+    core_net[\10.0.0.0/24/]
     tele2_net[/192.168.1.0/24\]
 
     Fiber-->core;
-    core-->10.0.0.0/24;
+    core-->core_net-->10.0.0.210;
     core-->core_link;
     core_link-->tele2_link;
     tele2_link-->tele2;
